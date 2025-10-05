@@ -4,12 +4,9 @@ A modern, responsive developer portfolio built with VuePress 2, featuring a clea
 
 ## 🚀 Features
 
-- **Modern Dashboard Interface**: Clean, professional layout with sidebar navigation
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Custom Vue Components**: Reusable components for projects, tech stack, and contact sections
 - **SEO Optimized**: Built-in SEO plugin and sitemap generation
 - **Fast Performance**: Vite bundler for optimal build times and hot reload
-- **Dark Mode Support**: Built-in dark mode with Tailwind CSS
 - **Project Showcase**: Detailed project pages with technical specifications
 - **Tech Stack Display**: Interactive technology showcase
 
@@ -58,8 +55,8 @@ my-vuepress-site/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd my-vuepress-site
+git clone https://github.com/AsoAfan/portfolio-vuepress.git
+cd portfolio-vuepress
 ```
 
 2. Install dependencies:
