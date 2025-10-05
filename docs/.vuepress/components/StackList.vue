@@ -71,6 +71,6 @@ const selectTech = (tech) => {
 }
 
 const goToProject = (slug) => {
-  window.location.href = `/projects/${slug}.html`
+  window.location.href = `projects/${slug}.html`
 }
 </script>
