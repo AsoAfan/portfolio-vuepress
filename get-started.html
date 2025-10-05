@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta property="og:url" content="https://example.com/portfolio-vuepress/get-started.html"><meta property="og:site_name" content="Aso A. Sdiq"><meta property="og:title" content="Get Started"><meta property="og:description" content="Get Started This is a normal page, which contains VuePress basics. Pages You can add markdown files in your vuepress directory, every markdown file will be converted to a page i..."><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Get Started","image":[""],"dateModified":null,"author":[]}</script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0ea5e9"><link rel="icon" href="/favicon.svg"><link rel="canonical" href="https://example.com"><title>Get Started | Aso A. Sdiq</title><meta name="description" content="Get Started This is a normal page, which contains VuePress basics. Pages You can add markdown files in your vuepress directory, every markdown file will be converted to a page i...">
+    <link rel="preload" href="/portfolio-vuepress/assets/style-BXw0s65T.css" as="style"><link rel="stylesheet" href="/portfolio-vuepress/assets/style-BXw0s65T.css">
+    <link rel="modulepreload" href="/portfolio-vuepress/assets/app-CiRXBP-q.js"><link rel="modulepreload" href="/portfolio-vuepress/assets/get-started.html-BO27kC8C.js">
+    <link rel="prefetch" href="/portfolio-vuepress/assets/about.html-CDugI8Te.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/contact.html-tkKh1h4E.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/index.html-DxRXwyVl.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/stack.html-UcvJ69R5.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/index.html-Dv2qsaIW.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/insightboard.html-CI8rAsav.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/taskflow.html-CLGfhdwZ.js" as="script"><link rel="prefetch" href="/portfolio-vuepress/assets/404.html-BpYaSSav.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-navbar external-link-icon" vp-container><!--[--><!----><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading">Dashboard <!----></p><ul class="vp-sidebar-children" style=""><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/portfolio-vuepress/" aria-label="Home"><!--[--><!--[--><!--]--><!--]-->Home<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/portfolio-vuepress/stack.html" aria-label="Tech Stack"><!--[--><!--[--><!--]--><!--]-->Tech Stack<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/portfolio-vuepress/projects/" aria-label="Projects"><!--[--><!--[--><!--]--><!--]-->Projects<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/portfolio-vuepress/about.html" aria-label="About"><!--[--><!--[--><!--]--><!--]-->About<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/portfolio-vuepress/contact.html" aria-label="Contact"><!--[--><!--[--><!--]--><!--]-->Contact<!--[--><!--[--><!--]--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><h1 id="get-started" tabindex="-1"><a class="header-anchor" href="#get-started"><span>Get Started</span></a></h1><p>This is a normal page, which contains VuePress basics.</p><h2 id="pages" tabindex="-1"><a class="header-anchor" href="#pages"><span>Pages</span></a></h2><p>You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.</p><p>See <a href="https://vuejs.press/guide/page.html#routing" target="_blank" rel="noopener noreferrer">routing</a> for more details.</p><h2 id="content" tabindex="-1"><a class="header-anchor" href="#content"><span>Content</span></a></h2><p>Every markdown file <a href="https://vuejs.press/guide/page.html#content" target="_blank" rel="noopener noreferrer">will be rendered to HTML, then converted to a Vue SFC</a>.</p><p>VuePress support basic markdown syntax and <a href="https://vuejs.press/guide/markdown.html#syntax-extensions" target="_blank" rel="noopener noreferrer">some extensions</a>, you can also <a href="https://vuejs.press/guide/markdown.html#using-vue-in-markdown" target="_blank" rel="noopener noreferrer">use Vue features</a> in it.</p><h2 id="configuration" tabindex="-1"><a class="header-anchor" href="#configuration"><span>Configuration</span></a></h2><p>VuePress use a <code>.vuepress/config.js</code>(or .ts) file as <a href="https://vuejs.press/guide/configuration.html#client-config-file" target="_blank" rel="noopener noreferrer">site configuration</a>, you can use it to config your site.</p><p>For <a href="https://vuejs.press/guide/configuration.html#client-config-file" target="_blank" rel="noopener noreferrer">client side configuration</a>, you can create <code>.vuepress/client.js</code>(or .ts).</p><p>Meanwhile, you can also add configuration per page with <a href="https://vuejs.press/guide/page.html#frontmatter" target="_blank" rel="noopener noreferrer">frontmatter</a>.</p><h2 id="layouts-and-customization" tabindex="-1"><a class="header-anchor" href="#layouts-and-customization"><span>Layouts and customization</span></a></h2><p>Here are common configuration controlling layout of <code>@vuepress/theme-default</code>:</p><ul><li><a href="https://vuejs.press/reference/default-theme/config.html#navbar" target="_blank" rel="noopener noreferrer">navbar</a></li><li><a href="https://vuejs.press/reference/default-theme/config.html#sidebar" target="_blank" rel="noopener noreferrer">sidebar</a></li></ul><p>Check <a href="https://vuejs.press/reference/default-theme/" target="_blank" rel="noopener noreferrer">default theme docs</a> for full reference.</p><p>You can <a href="https://vuejs.press/reference/default-theme/styles.html#style-file" target="_blank" rel="noopener noreferrer">add extra style</a> with <code>.vuepress/styles/index.scss</code> file.</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: aso.sargaty@gmail.com">Aso A. Sdiq</span><!----><!--]--><!--]--></span></div></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/portfolio-vuepress/assets/app-CiRXBP-q.js" defer></script>
+  </body>
+</html>
