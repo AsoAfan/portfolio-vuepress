@@ -49,19 +49,7 @@
         </div>
       </div>
       
-      <div class="project-links card">
-        <div class="card-header">
-          <h2 class="card-title">Project Links</h2>
-        </div>
-        <div class="project-links-grid">
-          <a v-if="project.live" :href="project.live" target="_blank" rel="noopener" class="project-link">
-            Live Demo
-          </a>
-          <a v-if="project.repo" :href="project.repo" target="_blank"  class="project-link">
-            GitHub Repository
-          </a>
-        </div>
-      </div>
+
     </div>
     
     <div v-else class="card text-center">
@@ -69,7 +57,8 @@
       <p>The requested project could not be found.</p>
     </div>
   </div>
-</template>
+  <a href="/projects/" class="back-to-projects">&larr; Back to Projects</a>
+  </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
@@ -84,3 +73,21 @@ onMounted(() => {
   project.value = projectsData.find(p => p.slug === slug)
 })
 </script>
+<style scoped>
+.back-to-projects {
+  display: block;
+  width: fit-content;
+  /* text-align: center; */
+  color: #000;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  transition: all 0.3s;
+
+}
+.back-to-projects:hover {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+</style>

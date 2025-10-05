@@ -1,4 +1,4 @@
----
+<!-- ---
 title: InsightBoard - Project Details
 description: Lightweight analytics dashboards, ready in minutes
 ---
@@ -48,4 +48,7 @@ InsightBoard provides instant analytics dashboards for businesses of all sizes. 
 
 ---
 
-[← Back to Projects](projects/)
+[← Back to Projects](projects/) -->
+
+
+<ProjectDetail slug="insightboard" />

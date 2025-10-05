@@ -27,8 +27,6 @@
 		"title": "InsightBoard",
 		"description": "Lightweight analytics dashboards, ready in minutes.",
 		"tech": ["Vue 3", "Node.js", "PostgreSQL", "Prisma"],
-		"live": "https://example.com/insightboard",
-		"repo": "https://github.com/you/insightboard",
 		"details": {
 			"overview": "InsightBoard provides instant analytics dashboards for businesses of all sizes. Setup takes minutes, not weeks, with pre-built templates and custom data connectors.",
 			"features": [
