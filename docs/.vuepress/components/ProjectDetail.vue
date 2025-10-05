@@ -57,7 +57,7 @@
       <p>The requested project could not be found.</p>
     </div>
   </div>
-  <a href="projects/" class="back-to-projects">&larr; Back to Projects</a>
+  <!-- <a href="projects/" class="back-to-projects">&larr; Back to Projects</a> -->
   </template>
 
 <script setup>
